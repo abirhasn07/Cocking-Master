@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealBD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+
+            <div class="navber">
+                <div class="row">
+                    <div class="logo">
+                        <h1>Cocking Master</h1>
+                    </div>
+                    <div class="nav-item">
+                        <ul class="row">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Recipe</a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="contanier">
+
+        <div class="flexitem">
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search For Meal...">
+                <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                <button class="random-btn" id="random"><i class="fas fa-random"></i></button>
+            </form>
+
+
+            <div id="resultHeading"></div>
+            <div id="meals" class="meals"></div>
+            <div id="singleMeal"></div>
+
+
+            <div id="random-meal">
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
